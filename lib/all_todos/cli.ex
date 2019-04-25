@@ -19,8 +19,8 @@ def process(:help) do
   IO.puts """
   trial
   ---------------
-  Usage: trial <url>
-  Example: trial https://jsonplaceholder.typicode.com/todos
+  Usage: all_todos <url>
+  Example: all_todos https://jsonplaceholder.typicode.com/todos
   """
 end
 end
