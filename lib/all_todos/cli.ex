@@ -15,4 +15,12 @@ def process({url}) do
   Todo.Fetcher.fetch(url)
   |> Todo.Extract.extract_required
 end
+def process(:help) do
+  IO.puts """
+  trial
+  ---------------
+  Usage: trial <url>
+  Example: trial https://jsonplaceholder.typicode.com/todos
+  """
+end
 end
