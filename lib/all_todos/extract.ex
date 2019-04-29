@@ -1,3 +1,6 @@
+@moduledoc """
+Extracts title from a given manp
+"""
 defmodule Todo.Extract do
   def extract_required(map) do
     # All_titles = []

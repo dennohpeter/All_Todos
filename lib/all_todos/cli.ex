@@ -1,3 +1,7 @@
+@moduledoc """
+  Gets input/url from console using OptionParser.parse()
+"""
+
 defmodule Todo.CLI do
   def main(args) do
     parse_arg(args)

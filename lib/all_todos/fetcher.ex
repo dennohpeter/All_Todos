@@ -1,3 +1,8 @@
+@moduledoc """
+  Fetches todos from net using HTTPoison.get
+  and parses it in way that Elixir understands using
+  Poison.Parser.parse()
+  """
 defmodule Todo.Fetcher do
   def fetch(url) do
     url |> HTTPoison.get
